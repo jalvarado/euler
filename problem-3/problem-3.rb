@@ -8,4 +8,5 @@ n = 600851475143
 
 factors, powers = n.prime_division.transpose
 
-puts factors
+puts factors.last
+
