@@ -16,4 +16,4 @@ end
 
 three_digits = (1...1000).to_a
 
-puts three_digits.product(three_digits).map {|x| x.first * x.last}.uniq.select {|n| palindrome?(n)}.sort
+puts three_digits.product(three_digits).map {|x| x.first * x.last}.uniq.select {|n| palindrome?(n)}.sort.last
